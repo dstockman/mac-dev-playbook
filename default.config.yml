@@ -67,8 +67,8 @@ mas_installed_apps:
   - { id: 803453959, name: "Slack" }
   - { id: 585829637, name: "Todoist" }
   - { id: 498672703, name: "Droplr" }
-mas_email: {{ mas_username }}
-mas_password: {{ mas_password }}
+mas_email: "{{ mas_username }}"
+mas_password: "{{ mas_password }}"
 
 osx_script: "~/.osx --no-restart"
 
