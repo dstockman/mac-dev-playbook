@@ -2,74 +2,73 @@
 downloads: ~/.ansible-downloads/
 
 configure_dotfiles: yes
-configure_sudoers: yes
-configure_terminal: yes
-configure_osx: yes
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://nonsenso@bitbucket.org/nonsenso/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/repos/dstockman/dotfiles
 dotfiles_files:
-  - .bash_profile
-  - .gitignore
-  - .inputrc
+  - .profile
   - .osx
-  - .vimrc
+  - .yamllint
+  - .gitconfig
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - autoconf
+  - awscli
+  - bash
   - bash-completion
-  - doxygen
   - gettext
-  - gifsicle
-  - git
-  - go
-  - gpg
-  - hub
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
-  - node
-  - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
+  - gnu-sed
+  - grep
+  - jq
   - openssl
-  - pv
+  - pwgen
+  - python3
   - wget
-  - wrk
+  - xz
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/cask-drivers
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - apache-directory-studio
+  - crashplan
   - docker
   - dropbox
-  - firefox
+  - font-input
+  - font-source-code-pro
   - google-chrome
-  - handbrake
-  - licecap
-  - limechat
-  - macvim
-  - sequel-pro
-  - skitch
-  - slack
+  - insync
+  - iterm2
+  - logitech-myharmony
+  - spotify
   - sublime-text
-  - transmit
   - vagrant
+  - virtualbox
+  - 1password
+  - zoomus
+#  - totalspaces2
+#  - vmware-fusion
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
-mas_email: ""
-mas_password: ""
+mas_installed_apps:
+  - { id: 1303222628, name: "Paprika Recipe Manager 3" }
+  - { id: 406056744, name: "Evernote" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 1262957439, name: "Textual 7" }
+  - { id: 924726344, name: "Deliveries" }
+  - { id: 803453959, name: "Slack" }
+  - { id: 585829637, name: "Todoist" }
+  - { id: 498672703, name: "Droplr" }
+mas_email: {{ mas_username }}
+mas_password: {{ mas_password }}
 
 osx_script: "~/.osx --no-restart"
 

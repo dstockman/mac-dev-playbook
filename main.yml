@@ -5,6 +5,14 @@
   vars_files:
     - default.config.yml
 
+  vars_prompt:
+    - name: "mas_username"
+      prompt: "Enter MAS Username"
+      private: yes
+    - name: "mas_password"
+      prompt: "Enter MAS Password"
+      private: yes
+
   pre_tasks:
     - include_vars: "{{ item }}"
       with_fileglob:

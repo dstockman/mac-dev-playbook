@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"ayu"
 		"DashDoc",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
@@ -17,6 +18,7 @@
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"Xdebug Client"
 	]
