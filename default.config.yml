@@ -4,7 +4,7 @@ downloads: ~/.ansible-downloads/
 configure_dotfiles: yes
 configure_sudoers: no
 configure_terminal: no
-configure_osx: no
+configure_osx: yes
 
 dotfiles_repo: git@bitbucket.org:nonsenso/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
@@ -54,8 +54,8 @@ homebrew_cask_apps:
   - virtualbox
   - 1password
   - zoomus
-#  - totalspaces2
-#  - vmware-fusion
+#  - totalspaces2 XXX
+#  - vmware-fusion XXX
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
