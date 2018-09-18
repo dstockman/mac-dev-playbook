@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - awscli
   - bash
   - bash-completion
+  - coreutils
   - gettext
   - gnu-sed
   - grep
