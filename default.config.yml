@@ -70,6 +70,7 @@ mas_installed_apps:
   - { id: 803453959, name: "Slack" }
   - { id: 585829637, name: "Todoist" }
   - { id: 498672703, name: "Droplr" }
+# XXX add 1password
 
 osx_script: "~/.osx --no-restart"
 
