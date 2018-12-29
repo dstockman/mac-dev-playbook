@@ -21,6 +21,7 @@ homebrew_installed_packages:
   - bash
   - bash-completion
   - coreutils
+  - docker-completion
   - gettext
   - gnu-sed
   - grep
@@ -36,6 +37,7 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/cask-fonts
   - homebrew/cask-drivers
+  - caskroom/versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -55,6 +57,9 @@ homebrew_cask_apps:
   - virtualbox
   - 1password
   - zoomus
+  - viscosity
+  - java6
+  - haptickey
 #  - totalspaces2 XXX
 #  - vmware-fusion XXX
 
