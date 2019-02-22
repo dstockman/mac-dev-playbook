@@ -60,6 +60,7 @@ homebrew_cask_apps:
   - viscosity
   - java6
   - haptickey
+  - keybase
 #  - totalspaces2 XXX
 #  - vmware-fusion XXX
 
