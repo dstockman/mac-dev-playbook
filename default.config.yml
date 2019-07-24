@@ -38,6 +38,7 @@ homebrew_taps:
   - homebrew/cask-fonts
   - homebrew/cask-drivers
   - caskroom/versions
+  - weaveworks/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -61,6 +62,7 @@ homebrew_cask_apps:
   - java6
   - haptickey
   - keybase
+  - eksctl
 #  - totalspaces2 XXX
 #  - vmware-fusion XXX
 
